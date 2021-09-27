@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Dancing";
+    src: url("./fonts/DancingScript-VariableFont_wght.ttf");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #334756;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 500vh;
+}
+.hero {
+    height: 30vh;
+    width: 100%;
+    background-image: url("img/cover-image\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid #d3d3d3;
+}
+.photo {
+    border-radius: 50%;
+    height: 80%;
+    margin-top: 20vh;
+    border: 5px solid #d3d3d3;
+}
+.perfil {
+    padding-top: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #ffffff;
+    min-height: max-content;
+}
+
+h1 {
+    font-family: "Dancing", Courier, monospace;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+h3 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .photo {
+        height: 80%;
+    }
+}
